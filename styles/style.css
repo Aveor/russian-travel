@@ -1,0 +1,146 @@
+.root {
+  font-family: 'inter', Arial, sans-serif;
+  font-style: normal;
+  background-color: #2A2C2F;
+  color: #FFFFFF;
+}
+
+.page {
+  margin: auto;
+  max-width: 1280px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 48px 0;
+  /* выше установили ограничения для секции */
+}
+
+.header__logo {
+  width: 176px;
+  height: 52px;
+
+}
+
+.header__lang-link {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: normal;
+  transition: opacity 0.25s;
+  margin: 0;
+  margin-left: 19px;
+  text-decoration: none;
+  color: #FFFFFF;
+  
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+
+.header__lang-links {
+  display: flex;
+  margin: 18px 0 0;
+  padding: 0;
+  
+}
+
+.header__lang-link_active {
+  text-decoration: underline;
+}
+
+.content {
+
+}
+
+.lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 56px 148px 0;
+}
+
+.lead__title {
+  max-width: 720px;
+  font-size: 96px;
+  line-height: 104%;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+
+}
+
+.lead__subtitle {
+  font-size: 30px;
+  line-height: 120%;
+  font-weight: normal;
+  text-align: center;
+  max-width: 640px;
+  min-height: 72px;
+  margin: 32px auto 0;
+
+
+}
+
+.lead__image {
+  width: 984px;
+  height: 615px;
+  margin: 64px auto 0;
+  position: relative;
+  object-fit: contain;
+
+
+}
+
+.lead__caption {
+  margin-top: 8px;
+  font-size: 10px;
+  line-height: 140%;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  align-self: flex-start;
+
+}
+
+.intro {
+  padding: 92px 148px 0;
+}
+
+.intro__title {
+  max-width: 690px;
+  font-size: 54px;
+  line-height: 107%;
+  font-weight: 900;
+  text-align: start;
+  margin: 0;
+
+}
+
+.intro__text {
+  max-width: 690px;
+  font-size: 16px;
+  line-height: 162%;
+  font-weight: normal;
+  text-align: start;
+  margin: 40px 0 0;
+}
+
+.intro__list {
+  max-width: 690px;
+  margin: 32px 0 0;
+  list-style: none;
+  padding: 0;
+}
+
+.intro__list-item {
+  font-size: 12px;
+  line-height: 150%;
+  font-weight: bold;
+  text-align: start;
+}
+
+.intro__list-num {
+  font-weight: normal;
+}
