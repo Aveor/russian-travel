@@ -1,0 +1,116 @@
+
+/*
+  выше 1280 фигма1280
+}*/
+.lead__image {
+  max-width: 984px;
+  min-height: 615px;
+    position: relative;
+    object-fit: contain;
+  
+  
+  }
+
+  @media screen and (max-width: 1279px) {
+    .lead__image {
+      max-width: 928px;
+      min-height: 580px;
+      
+    }
+  
+  }
+  
+  /*
+    от 768 до 1023 фигма768
+  }*/
+  
+  @media screen and (max-width: 1023px) {
+    .lead__image {
+      max-width: 768px;
+      min-height: 480px;
+      
+    }
+  }
+  
+  /*
+    от 320 до 767 фигма320
+  }*
+  
+  @media screen and (max-width: 767px) {
+    .lead__image {
+      max-width: 320px;
+      min-height: 200px;
+      
+    }
+  }
+  /*
+    менее 320 фигма320
+  }*/
+  
+  
+  @media screen and (max-width: 767px) {
+    .lead__image {
+      max-width: 320px;
+      min-height: 200px;
+      
+    }
+  }
+
+/*.lead__image {
+  width: 984px;
+  height: 615px;
+  margin: 64px auto 0;
+  position: relative;
+  object-fit: contain;
+
+
+}*/
+
+/*
+  от 1024 до 1279 фигма1024
+}
+
+@media screen and (max-width: 1279px) {
+  .lead__image {
+    max-width: 928px;
+    min-height: 580px;
+    margin: 56px 0 0;
+  }
+
+}
+
+/*
+  от 768 до 1023 фигма768
+}*
+
+@media screen and (max-width: 1023px) {
+  .lead__image {
+    max-width: 768px;
+    min-height: 480px;
+    margin: 56px 0 0;
+  }
+}
+
+/*
+  от 320 до 767 фигма320
+}*
+
+@media screen and (max-width: 767px) {
+  .lead__image {
+    max-width: 320x;
+    min-height: 200px;
+    margin: 40px 0 0;
+  }
+}
+/*
+  менее 320 фигма320
+}*
+
+
+@media screen and (max-width: 320px) {
+  .lead__image {
+    max-width: 320px;
+    min-height: 200px;
+    margin: 40px 0 0;
+  }
+} */
