@@ -18,7 +18,7 @@
   }
 } 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .lead {
     padding: 48px 0 0;
   }
