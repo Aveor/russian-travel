@@ -22,4 +22,4 @@
 
 
 **GitHub Pages**
-* [Ссылка на проект]()
+* [Ссылка на проект](https://aveor.github.io/russian-travel/)
