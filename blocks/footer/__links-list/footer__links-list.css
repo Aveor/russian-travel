@@ -4,3 +4,12 @@
     padding: 0;
     display: flex;
   }
+
+@media screen and (max-width: 767px) {
+  .footer__links-list {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 48px;
+  }
+}
+  

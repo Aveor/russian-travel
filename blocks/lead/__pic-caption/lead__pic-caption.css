@@ -1,50 +1,28 @@
 .lead__pic-caption {
-  
-  margin: 64px 0 0;
-
+    margin: 64px 0 0;
 }
-
-/*
-  от 1024 до 1279 фигма1024
-}*/
 
 @media screen and (max-width: 1279px) {
   .lead__pic-caption {
-    
     margin: 56px 0 0;
   }
 
 }
-
-/*
-  от 768 до 1023 фигма768
-}*/
 
 @media screen and (max-width: 1023px) {
   .lead__pic-caption {
-   
     margin: 56px 0 0;
   }
 }
 
-/*
-  от 320 до 767 фигма320
-}*/
-
 @media screen and (max-width: 767px) {
   .lead__pic-caption {
-   
     margin: 40px 0 0;
   }
 }
-/*
-  менее 320 фигма320
-}*/
-
 
 @media screen and (max-width: 320px) {
   .lead__pic-caption {
-    
     margin: 40px 0 0;
   }
 }
