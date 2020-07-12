@@ -4,19 +4,19 @@
     margin: 0;
   }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1135px) {
   .places {
     padding: 8px 48px 0;
   }
 }
   
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 920px) {
   .places {
     padding: 16px 24px 0;
   }
 }
   
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .places {
     padding: 16px 0 0;
   }
